@@ -8,6 +8,21 @@
   {% assign current_variant = product.selected_or_first_available_variant %}
 
   <div class="grid product-single">
+      <div class="col-md-2">
+        <div class="btn" id="background-btn">put the T-shirt</div>
+        <div class="btn" id="rect-btn">Add a rectangle</div>
+        <div class="btn" id="sticker-btn">Add a sticker</div>
+        <span class="btn btn-default btn-file">
+            Upload Your Art<input type="file" id="imageLoader">
+        </span>
+        <div class="btn" id="filter-btn">Apply some effect</div>
+        <div class="btn" id="delete-btn">Delete</div>
+        <div class="btn" id="clear-btn">Clear</div>
+        <div class="btn" id="text-btn">Add text</div>
+        <div class="btn" id="text-bold-btn">Bold</div>
+        <div class="btn" id="text-italic-btn">Italic</div>
+        <div class="btn" id="save-btn"><a id="download">Save customization</a></div>
+      </div>
     <p>this is a canvas</p>
     <canvas id="canvas" width=380 height=500></canvas>  
   </div>
